@@ -165,7 +165,7 @@ a:hover {
   padding: 16px;
   font-size: 0.875rem;
 }
-
+/* ===== OVERALL END ===== */
 /* ====CARD SELF-INTRODUCTION BEGIN==== */
 .card-basic-info-layout{
   display: flex;
@@ -196,5 +196,33 @@ a:hover {
   padding: 4px;
 }
 /* ===== CARD | SELF-INTRODUCTION END ===== */
-/* ===== OVERALL END ===== */
+
+/* ===== CARD | HOBBY BEGIN ===== */
+.swiper-area{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.swiper-side{
+  background-color: #212121;
+}
+.swiper-slide img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide .swiper-title{
+  margin-top: 4px;
+  position: absolute;
+  line-height: 1.5rem;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #00000080;
+  color: #ffffffdd;
+  padding: 0 0.5rem;
+}
+
 /* ===== BASIC END ===== */
